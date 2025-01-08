@@ -80,4 +80,18 @@ np.savetxt(rdf_data_file, rdf_data, delimiter=',', header='Distance, g(r)', comm
 
 print(f"RDF plot saved as '{rdf_plot_file}'")
 print(f"RDF data saved as '{rdf_data_file}'")
+```
+
+## Functions
+
+- `read_xyz_files(file_pattern)`: Reads atomic positions from XYZ files.
+- `read_cell_lengths(inp_file)`: Reads cell lengths from the input file.
+- `apply_periodic_boundary_conditions(positions, cell_matrix)`: Applies periodic boundary conditions to atomic positions.
+- `write_corrected_xyz(file_name, atom_list, positions)`: Writes corrected atomic positions to an XYZ file.
+- `calculate_distances(config, positions, atom_list, atom_type1, atom_type2, cell_matrix, r_max)`: Calculates distances between specified atom types.
+- `calculate_rdf(positions, atom_list, atom_type1, atom_type2, cell_matrix, dr, r_max)`: Calculates the RDF for specified atom types.
+
+## License
+
+This project is licensed under the MIT License.
 
