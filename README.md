@@ -1,6 +1,6 @@
 # Radial Distribution Function (RDF) Calculation
 
-This script calculates the Radial Distribution Function (RDF) for a given set of atomic positions from XYZ files. The script reads the atomic positions, applies periodic boundary conditions, calculates the distances between specified atom types, and generates the RDF. The results are saved as a plot and a CSV file.
+This script calculates the Radial Distribution Function (RDF) for a given set of atomic positions from XYZ file of CP2K. The script reads the atomic positions, applies periodic boundary conditions, calculates the distances between specified atom types, and generates the RDF. The results are saved as a plot and a CSV file.
 
 ## Requirements
 
