@@ -98,4 +98,4 @@ This project is licensed under the GPL-3.0 license .
 
 ## Contact
 
-If you have any questions or suggestions, feel free to contact me at [sedoroninl@gmail.com](mailto:sedoronin@gmail.com) (Sergey V. Doronin).
+If you have any questions or suggestions, feel free to contact me at [sedoronin@gmail.com](mailto:sedoronin@gmail.com) (Sergey V. Doronin).
